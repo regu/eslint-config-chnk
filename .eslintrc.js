@@ -34,6 +34,13 @@ module.exports = {
                 "singleQuote": true,
                 "tabWidth": 2
             }
+        ],
+        "lines-between-class-members": [
+            "error",
+            "always",
+            {
+                exceptAfterSingleLine: true
+            }
         ]
     }
 }
