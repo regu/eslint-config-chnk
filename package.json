@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-chnk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "dependencies": {
     "babel-eslint": "^10.0.3",

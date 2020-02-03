@@ -26,7 +26,16 @@ module.exports = {
                 "after": true
             }
         ],
-        "import/extensions": [".js", ".jsx", ".json", ".ts", ".tsx"],
+        "import/extensions": [
+            "error",
+            "always",
+            {
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ],
         "prettier/prettier": [
             "error",
             {
