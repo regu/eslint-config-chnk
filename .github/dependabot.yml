@@ -1,0 +1,22 @@
+version: 2
+registries:
+  npm-registry-npm-greensock-com:
+    type: npm-registry
+    url: https://npm.greensock.com
+    token: "${{secrets.NPM_REGISTRY_NPM_GREENSOCK_COM_TOKEN}}"
+
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.2.0
+  - dependency-name: eslint
+    versions:
+    - 7.24.0
+  registries:
+  - npm-registry-npm-greensock-com
