@@ -11,7 +11,7 @@
     "eslint-plugin-prettier": "^4.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.0"
   },
   "peerDependencies": {
     "eslint": ">=7.1.0"
