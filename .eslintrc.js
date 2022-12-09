@@ -2,7 +2,8 @@ module.exports = {
   env: {
     browser: true,
   },
-  parser: 'babel-eslint',
+  parser: "@babel/eslint-parser",
+  "requireConfigFile": false,
   globals: {
     $: true,
     google: true,
