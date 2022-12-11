@@ -3,7 +3,6 @@ module.exports = {
     browser: true,
   },
   parser: "@babel/eslint-parser",
-  "requireConfigFile": false,
   globals: {
     $: true,
     google: true,
